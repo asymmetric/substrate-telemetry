@@ -9,10 +9,10 @@
       with import nixpkgs { system = "x86_64-linux"; };
 
       rustPlatform.buildRustPackage {
-        pname = "substrate-telemetry";
+        pname = "substrate-telemetry-backend";
         version = "0.2.1";
 
-        src = self;
+        src = ./.;
 
         buildInputs = [ openssl ];
 
