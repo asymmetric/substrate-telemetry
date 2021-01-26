@@ -1,6 +1,8 @@
 {
   description = "Substrate telemetry backend";
 
+  inputs.nixpkgs.url = github:NixOS/nixpkgs/release-20.09;
+
   outputs = { self, nixpkgs }: {
 
     defaultPackage.x86_64-linux =
