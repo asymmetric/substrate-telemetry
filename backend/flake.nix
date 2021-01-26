@@ -16,7 +16,7 @@
 
         buildInputs = [ openssl ];
 
-        cargoSha256 = "sha256-yeU8PemuBTxU7O60eFQs3Nx6OdS/ALvRqDfWNtmVK7c";
+        cargoSha256 = "sha256-GczrMtSYNT979Tzup/92CoTJmNT8Pvy8O7syAu8EQPE=";
       };
   };
 }
