@@ -18,6 +18,8 @@
         buildInputs = [ openssl ];
 
         cargoSha256 = "sha256-GczrMtSYNT979Tzup/92CoTJmNT8Pvy8O7syAu8EQPE=";
+
+        doCheck = false;
       };
   };
 }
