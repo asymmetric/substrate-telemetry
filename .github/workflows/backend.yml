@@ -22,5 +22,4 @@ jobs:
         name: asymmetric
         signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
     - name: Build
-      working-directory: ./backend
       run: nix build -L
